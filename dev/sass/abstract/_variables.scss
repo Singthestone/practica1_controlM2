@@ -1,0 +1,27 @@
+/* **************************** */
+
+
+/* VARIABLES */
+
+
+/* **************************** */
+
+// Tamaños tipográficos
+$h1: 24;
+$h3: 36;
+$p: 18;
+$font-size-nombre: convertir($h1);
+$font-size-title: convertir($h3);
+$font-size-text: convertir($p);
+// Colors 
+$color-background: #EDB84F;
+$color-button: #BE2424;
+$color-text: #E8E8E8;
+$color-white: #FFFFFF;
+// Paddings
+$padding-standard: convertir(30);
+$padding-main-right: convertir(200);
+// Button
+$button-radius: convertir(10);
+$button-padding: convertir(15);
+$button-padding-top-bottom: convertir(10);

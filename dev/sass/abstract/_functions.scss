@@ -1,0 +1,23 @@
+/* **************************** */
+
+
+/* FUNCTIONS */
+
+
+/* **************************** */
+
+// Convertir los px --> Rem, Em, Porcentaje
+@function convertir($px, $tipo: "rem", $base: 16) {
+    $calcularEM: $px / $base;
+    @if ($tipo=="rem") {
+        $rem: $calcularEM + rem;
+        @return $rem;
+    }
+    @else if ($tipo=="em") {
+        $em: $calcularEM + em;
+        @return $em;
+    }
+    @else {
+        @return $px+px;
+    }
+}

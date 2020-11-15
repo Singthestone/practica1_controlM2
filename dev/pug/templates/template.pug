@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="dev/css/reset.css")
+        link(rel="stylesheet", href="dev/css/style.css")
+        title Índice Perrito
+    body
+        //Contenedor para distribuir la estructura en derecha e izquierda
+        div#container
+            //Zona derecha (IMAGEN PERRITO)
+            div.container__right
+                img.right__perrito(src="assets/img/perrito.jpg", alt="Imagen Perrito")
+            //Zona izquierda (CONTENIDO PRINCIPAL)
+            div.container__left
+                //- HEADER
+                header.header
+                    include header.pug
+                //- MAIN
+                main.main
+                    h3.main__titulo ADOPTA   
+                    p.main__texto Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, eligendi doloremque. Dolorem tempore nemo voluptas neque illo quibusdam laboriosam esse id eos fugit, et consequatur non mollitia vero aperiam velit quis in atque, laudantium alias rerum officiis illum excepturi explicabo! Enim consectetur magni, ex reprehenderit possimus iste doloribus, numquam temporibus aperiam illo nobis. Ab accusantium labore quod ratione, repellendus eaque error possimus modi ut nesciunt, fuga asperiores cupiditate eveniet consequatur. Voluptas, provident consequatur quibusdam voluptates laudantium sit modi blanditiis accusantium, quam doloremque aut illo asperiores reprehenderit tempore iusto explicabo quia rem quasi dolores nam nobis voluptatibus corporis ipsa! Minima, necessitatibus!
+                    button.button ¡YA!

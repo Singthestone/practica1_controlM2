@@ -1,0 +1,35 @@
+/* **************************** */
+
+
+/* INDEX */
+
+
+/* **************************** */
+
+body {
+    background-color: $color-background;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container__right {
+    width: 50vw;
+    height: 100vh;
+}
+
+.container__left {
+    width: 50vw;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: $padding-standard;
+    padding-right: $padding-main-right;
+}

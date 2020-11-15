@@ -1,0 +1,34 @@
+/* **************************** */
+
+
+/* TIPO */
+
+
+/* **************************** */
+
+body {
+    color: $color-text;
+    font-family: Arial;
+}
+
+.header {
+    &__nombre {
+        font-family: Arial Black;
+        font-size: $font-size-nombre;
+        font-weight: 900;
+        color: $color-white;
+    }
+}
+
+.main__titulo,
+.button {
+    font-family: Arial Black;
+    font-size: $font-size-title;
+    font-weight: 900;
+    color: $color-white;
+}
+
+.main__texto {
+    font-size: $font-size-text;
+    font-weight: 700;
+}

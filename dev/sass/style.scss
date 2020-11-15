@@ -1,0 +1,25 @@
+/* **************************** */
+
+
+/* Importación de parciales para compilar */
+
+
+/* **************************** */
+
+// ABSTRACT
+//Funciones
+@import 'abstract/functions';
+// Variables
+@import 'abstract/variables';
+// BASE
+// Tipo
+@import 'base/tipography';
+// COMPONENTS
+// Botones
+@import 'components/buttons';
+// LAYOUT
+// Header
+@import 'layout/header';
+// PAGES
+// Index
+@import 'pages/index';
